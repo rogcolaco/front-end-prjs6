@@ -1,0 +1,143 @@
+.card-body{
+  width: 100%;
+}
+
+.cardFundo {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+
+  .card{
+    flex-direction: column;
+    width: 100%;
+
+    /* &.Renda.Fixa{
+      border: 2px solid #2222b9;
+    }
+
+    &.Cambial.Dólar{
+      border: 2px solid #cc0b0b;
+    }
+
+    &.Curto.Prazo{
+      border: 2px solid #087308;
+    }
+
+    &.Multimercado{
+      border: 2px solid #dc9a22;
+    }
+
+    &.Cambial.Euro{
+      border: 2px solid #ef2cef;
+    }
+
+    &.Referenciado.DI{
+      border: 2px solid blueviolet;
+    }
+
+    &.Dívida.Externa{
+      border: 2px solid #7dbd19;
+    } */
+
+    &.Renda.Fixa{
+      border-left: 13px solid #2222b9;
+    }
+
+    &.Cambial.Dólar{
+      border-left: 13px solid #cc0b0b;
+    }
+
+    &.Curto.Prazo{
+      border-left: 13px solid #087308;
+    }
+
+    &.Multimercado{
+      border-left: 13px solid #dc9a22;
+    }
+
+    &.Cambial.Euro{
+      border-left: 13px solid #ef2cef;
+    }
+
+    &.Referenciado.DI{
+      border-left: 13px solid blueviolet;
+    }
+
+    &.Dívida.Externa{
+      border-left: 13px solid #7dbd19;
+    }
+  }
+}
+
+
+.fundo-body{
+  font-weight: bold;
+
+  /* &.Renda.Fixa{
+    padding: 22px;
+    margin: 0 -15px 15px -15px;
+    color: white;
+    background: #2222b9;
+  }
+
+  &.Cambial.Dólar{
+    padding: 22px;
+    margin: 0 -15px 15px -15px;
+    color: white;
+    background: #cc0b0b;
+  }
+
+  &.Curto.Prazo{
+    padding: 22px;
+    margin: 0 -15px 15px -15px;
+    color: white;
+    background: #087308;
+  }
+
+  &.Multimercado{
+    padding: 22px;
+    margin: 0 -15px 15px -15px;
+    color: #111;
+    background: #dc9a22;
+  }
+
+  &.Cambial.Euro{
+    padding: 22px;
+    margin: 0 -15px 15px -15px;
+    color: #111;
+    background: #ef2cef;
+  }
+
+  &.Referenciado.DI{
+    padding: 22px;
+    margin: 0 -15px 15px -15px;
+    color: #111;
+    background: blueviolet;
+  }
+
+  &.Dívida.Externa{
+    padding: 22px;
+    margin: 0 -15px 15px -15px;
+    color: #111;
+    background: #7dbd19;
+  } */
+}
+
+.nomeFundo {
+  text-align: center;
+  font-size: 25px;
+}
+
+.rentabilidadeFundo-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.fundo-body span:last-child {
+  float: right;
+}
+
+.loading{
+  margin: auto;
+  text-align: center;
+}
