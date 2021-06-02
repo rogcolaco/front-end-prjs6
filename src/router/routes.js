@@ -23,43 +23,8 @@ const routes = [
   {
     path: "/",
     component: DashboardLayout,
-    redirect: "/rendafixa",
+    redirect: "rendafixa",
     children: [
-      {
-        path: "dashboard",
-        name: "dashboard",
-        component: Dashboard
-      },
-      {
-        path: "stats",
-        name: "stats",
-        component: UserProfile
-      },
-      {
-        path: "notifications",
-        name: "notifications",
-        component: Notifications
-      },
-      {
-        path: "icons",
-        name: "icons",
-        component: Icons
-      },
-      {
-        path: "maps",
-        name: "maps",
-        component: Maps
-      },
-      {
-        path: "typography",
-        name: "typography",
-        component: Typography
-      },
-      {
-        path: "table-list",
-        name: "table-list",
-        component: TableList
-      },
       {
         path: "rendafixa",
         name: "Renda Fixa",
@@ -94,6 +59,10 @@ const routes = [
         path: "excluircadastro",
         name: "Excluir Cadastro",
         component: DeleteContact
+      },
+      {
+        path: "front-end-prjs6",
+        redirect: "rendafixa",
       },
     ]
   },
